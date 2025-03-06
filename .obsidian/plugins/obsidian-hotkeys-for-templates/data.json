@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "templaterFiles": [
+    "addons/Task Tracker Addon.md",
+    "addons/Metric Tracker Addon.md"
+  ],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": false
+}

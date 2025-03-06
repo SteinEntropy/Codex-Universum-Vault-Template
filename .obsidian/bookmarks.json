@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1694215636587,
+      "items": [
+        {
+          "type": "file",
+          "path": "_start_here.md",
+          "ctime": 1683486334987
+        },
+        {
+          "type": "file",
+          "path": "My Projects/Vault Onboarding.md",
+          "ctime": 1683486334987
+        },
+        {
+          "type": "file",
+          "ctime": 1713483722926,
+          "path": "USV/USV.md"
+        },
+        {
+          "type": "file",
+          "path": "USV/Obsidian Hotkeys.md",
+          "ctime": 1683486334987
+        }
+      ],
+      "title": "Onboarding Related"
+    },
+    {
+      "type": "file",
+      "path": "My Views/My Home.md",
+      "ctime": 1683486334987,
+      "title": "🏠 My Home"
+    },
+    {
+      "type": "file",
+      "ctime": 1712130113123,
+      "path": "USV/My Vision Board.md",
+      "title": "⭐️ My Vision Board"
+    },
+    {
+      "type": "file",
+      "ctime": 1694215667587,
+      "path": "My Projects/My Projects.md",
+      "title": "🚧 My Projects"
+    },
+    {
+      "type": "file",
+      "ctime": 1713400626766,
+      "path": "My Greenhouse/My Greenhouse.md",
+      "title": "🌞 My Greenhouse"
+    },
+    {
+      "type": "file",
+      "ctime": 1697496501666,
+      "path": "My Views/My Tasks.md",
+      "title": "✅ My Tasks"
+    },
+    {
+      "type": "file",
+      "path": "Starter Vault Changelog.md",
+      "ctime": 1683486334987
+    },
+    {
+      "type": "group",
+      "ctime": 1683488683158,
+      "items": [],
+      "title": "Graphmarks"
+    },
+    {
+      "type": "group",
+      "ctime": 1683488686307,
+      "items": [],
+      "title": "Searchmarks"
+    }
+  ]
+}

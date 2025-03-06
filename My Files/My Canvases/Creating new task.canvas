@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"243fbf2b362ed04d","type":"text","text":"Is it actionable","x":-125,"y":140,"width":250,"height":60},
+		{"id":"8852e1c7bc73da6a","type":"text","text":"No","x":200,"y":140,"width":250,"height":60},
+		{"id":"d5ce9069cd0ec0aa","type":"text","text":"Yes","x":-125,"y":260,"width":250,"height":60},
+		{"id":"922d860b347a41d4","type":"text","text":"What is the task related to?","x":-125,"y":534,"width":250,"height":154},
+		{"id":"673aa4adf1c955cd","type":"text","text":"![[Tasks Plugin#Project Notes]]","x":340,"y":497,"width":830,"height":191},
+		{"id":"9539442f17e31612","type":"text","text":"![[Tasks Plugin#Area Notes]]","x":392,"y":758,"width":778,"height":182},
+		{"id":"1f6d30eaecd60091","type":"text","text":"Add [[Tasks Plugin#due|due]] date and other [[Tasks Plugin#tags|tags]], see when you need it in [[Tasks Plugin#Views]]","x":1440,"y":970,"width":250,"height":170},
+		{"id":"4e06ea47f6cd6115","type":"text","text":"Add `#someday` tag, see later in [[My Tasks#Someday/Maybe ` someday`|someday maybe list]]","x":940,"y":140,"width":400,"height":80},
+		{"id":"3e921c0021f44db6","type":"text","text":"Delete it","x":940,"y":0,"width":400,"height":60},
+		{"id":"abd289e09162228b","type":"text","text":"Put it in a note that is retrievable when required","x":940,"y":290,"width":400,"height":90},
+		{"id":"eed6d3da4930c6af","type":"text","text":"![[Tasks Plugin#Resource Notes]]","x":450,"y":1000,"width":720,"height":440},
+		{"id":"44d6d1302a9e24ca","type":"text","text":"![[Tasks Plugin#Daily Notes]]","x":500,"y":1500,"width":670,"height":270}
+	],
+	"edges":[
+		{"id":"83dc2c8641074f58","fromNode":"243fbf2b362ed04d","fromSide":"right","toNode":"8852e1c7bc73da6a","toSide":"left"},
+		{"id":"eedaf7b0bfc49d51","fromNode":"8852e1c7bc73da6a","fromSide":"right","toNode":"4e06ea47f6cd6115","toSide":"left","label":"If you do want to do it eventually but don't have time this week"},
+		{"id":"e25d295c8dca196a","fromNode":"8852e1c7bc73da6a","fromSide":"bottom","toNode":"abd289e09162228b","toSide":"left","label":"If it's more informational than it is actionable"},
+		{"id":"6671430ac30f6a40","fromNode":"8852e1c7bc73da6a","fromSide":"top","toNode":"3e921c0021f44db6","toSide":"left","label":"If it's not important enough"},
+		{"id":"0e66ea4bcc028aab","fromNode":"243fbf2b362ed04d","fromSide":"bottom","toNode":"d5ce9069cd0ec0aa","toSide":"top"},
+		{"id":"9a2c2bb1169c04fd","fromNode":"d5ce9069cd0ec0aa","fromSide":"bottom","toNode":"922d860b347a41d4","toSide":"top"},
+		{"id":"e32cf902323d00e5","fromNode":"922d860b347a41d4","fromSide":"right","toNode":"9539442f17e31612","toSide":"left","label":"Area"},
+		{"id":"9e7ae250b5d4fa70","fromNode":"922d860b347a41d4","fromSide":"right","toNode":"673aa4adf1c955cd","toSide":"left","label":"Project"},
+		{"id":"2cd723e497cd47bb","fromNode":"922d860b347a41d4","fromSide":"bottom","toNode":"44d6d1302a9e24ca","toSide":"left","label":"Other\n(ex. something I\n need to do today)"},
+		{"id":"ab004fd2b031e58c","fromNode":"922d860b347a41d4","fromSide":"bottom","toNode":"eed6d3da4930c6af","toSide":"left","label":"A resource/note"},
+		{"id":"095365f81453e391","fromNode":"673aa4adf1c955cd","fromSide":"right","toNode":"1f6d30eaecd60091","toSide":"left"},
+		{"id":"76f7d433d00bb050","fromNode":"9539442f17e31612","fromSide":"right","toNode":"1f6d30eaecd60091","toSide":"left"},
+		{"id":"f1113f147fd583e6","fromNode":"eed6d3da4930c6af","fromSide":"right","toNode":"1f6d30eaecd60091","toSide":"left"},
+		{"id":"374d534f8b8d48c4","fromNode":"44d6d1302a9e24ca","fromSide":"right","toNode":"1f6d30eaecd60091","toSide":"left"}
+	]
+}

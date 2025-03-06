@@ -1,0 +1,21 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "baseFontSize": 17,
+  "theme": "obsidian",
+  "translucency": false,
+  "accentColor": "",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "scrollbar",
+    "cards",
+    "supercharged-links-gen",
+    "supercharged-links-color",
+    "hideCanvasHeader",
+    "extended-colorschemes"
+  ],
+  "interfaceFontFamily": "SN Pro",
+  "textFontFamily": "SN Pro",
+  "monospaceFontFamily": "SN Pro"
+}

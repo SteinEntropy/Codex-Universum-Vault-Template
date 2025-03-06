@@ -1,0 +1,17 @@
+/* .canvas-node-content .internal-embed[alt*="n-h1"] h1,
+.canvas-node-content .internal-embed[alt*="n-h2"] h2,
+.canvas-node-content .internal-embed[alt*="n-h3"] h3,
+.canvas-node-content .internal-embed[alt*="n-h4"] h4,
+.canvas-node-content .internal-embed[alt*="n-h5"] h5,
+.canvas-node-content .internal-embed[alt*="n-h6"] h6 {
+    display: none;
+}
+
+.canvas-node-content .internal-embed[alt*="no-h"] h1,
+.canvas-node-content .internal-embed[alt*="no-h"] h2,
+.canvas-node-content .internal-embed[alt*="no-h"] h3,
+.canvas-node-content .internal-embed[alt*="no-h"] h4,
+.canvas-node-content .internal-embed[alt*="no-h"] h5,
+.canvas-node-content .internal-embed[alt*="no-h"] h6 {
+    display: none;
+} */
