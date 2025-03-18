@@ -1,0 +1,123 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "Hidden/My Archives",
+      "tag": "#archive",
+      "pattern": ""
+    },
+    {
+      "folder": "My Inputs/My Articles",
+      "tag": "#input/articles",
+      "pattern": ""
+    },
+    {
+      "folder": "My Inputs/My Videos",
+      "tag": "#input/videos",
+      "pattern": ""
+    },
+    {
+      "folder": "My Inputs/My Podcasts",
+      "tag": "#input/podcasts",
+      "pattern": ""
+    },
+    {
+      "folder": "My Inputs/My Books",
+      "tag": "#input/books",
+      "pattern": ""
+    },
+    {
+      "folder": "My Resources",
+      "tag": "#resource",
+      "pattern": ""
+    },
+    {
+      "folder": "My Areas",
+      "tag": "#area",
+      "pattern": ""
+    },
+    {
+      "folder": "My Goals",
+      "tag": "#goal",
+      "pattern": ""
+    },
+    {
+      "folder": "My Input Collections",
+      "tag": "#inputCollection",
+      "pattern": ""
+    },
+    {
+      "folder": "My Habits",
+      "tag": "#habitNote",
+      "pattern": ""
+    },
+    {
+      "folder": "My Projects",
+      "tag": "#project",
+      "pattern": ""
+    },
+    {
+      "folder": "My Inputs",
+      "tag": "#input",
+      "pattern": ""
+    },
+    {
+      "folder": "My Social Circle",
+      "tag": "#person",
+      "pattern": ""
+    },
+    {
+      "folder": "My Thoughts",
+      "tag": "#thought",
+      "pattern": ""
+    },
+    {
+      "folder": "My Calendar/My Daily Notes",
+      "tag": "#reviews/daily",
+      "pattern": ""
+    },
+    {
+      "folder": "My Calendar/My Weekly Notes",
+      "tag": "#reviews/weekly",
+      "pattern": ""
+    },
+    {
+      "folder": "My Calendar/My Monthly Notes",
+      "tag": "#reviews/monthly",
+      "pattern": ""
+    },
+    {
+      "folder": "My Calendar/My Quarterly Notes",
+      "tag": "#reviews/quarterly",
+      "pattern": ""
+    },
+    {
+      "folder": "My Calendar/My Yearly Notes",
+      "tag": "#reviews/yearly",
+      "pattern": ""
+    },
+    {
+      "folder": "My Outputs/My Book Applications",
+      "tag": "#output/bookapplications",
+      "pattern": ""
+    },
+    {
+      "folder": "My Resources/My Maps of Content (MOCs)",
+      "tag": "#moc",
+      "pattern": ""
+    },
+    {
+      "folder": "My Outputs/My Brainstorms",
+      "tag": "#output/brainstorm",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": true,
+  "excluded_folder": [
+    {
+      "folder": "Hidden"
+    }
+  ]
+}

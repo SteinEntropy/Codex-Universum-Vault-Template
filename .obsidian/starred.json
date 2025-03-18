@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "_start_here",
+      "path": "_start_here.md"
+    },
+    {
+      "type": "file",
+      "title": "_index",
+      "path": "🏠 My Home.md"
+    },
+    {
+      "type": "file",
+      "title": "~ Projects",
+      "path": "1. Projects/🚧 My Projects.md"
+    },
+    {
+      "type": "file",
+      "title": "My Inputs",
+      "path": "📥 My Inputs.md"
+    },
+    {
+      "type": "file",
+      "title": "🚧 Vault Onboarding",
+      "path": "1. Projects/🚧 Vault Onboarding/🚧 Vault Onboarding.md"
+    },
+    {
+      "type": "file",
+      "title": "My Hotkeys",
+      "path": "My Hotkeys.md"
+    },
+    {
+      "type": "file",
+      "title": "Starter Vault Changelog",
+      "path": "Starter Vault Changelog.md"
+    }
+  ]
+}

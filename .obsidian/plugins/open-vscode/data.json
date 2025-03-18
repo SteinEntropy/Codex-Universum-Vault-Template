@@ -1,0 +1,8 @@
+{
+  "ribbonIcon": true,
+  "ribbonCommandUsesCode": true,
+  "executeTemplate": "code \"{{vaultpath}}\" \"{{vaultpath}}/{{filepath}}\"",
+  "openFile": true,
+  "workspacePath": "{{vaultpath}}",
+  "useUrlInsiders": false
+}

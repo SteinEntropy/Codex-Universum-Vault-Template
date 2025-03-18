@@ -1,0 +1,305 @@
+{
+  "main": {
+    "id": "46282f834e264563",
+    "type": "split",
+    "children": [
+      {
+        "id": "c442bf478d0ce349",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a9e6f10702cac55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/2023-03-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "833d4ba48150dd71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09ddef3cb9955fe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/2023-03-10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f52e06fafa421038",
+    "type": "split",
+    "children": [
+      {
+        "id": "93f00f080efb3236",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa5400a13a1695ce",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "7cce1e741e13fe08",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccb79974974a83e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2e43b099641c8060",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "03195c1cb51b65ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66db21eab2fcb693",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d2a414d0abc19c36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7c35657150677bf5",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d27ec8b508b004a3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ad0a5f6e9f09c33",
+    "type": "split",
+    "children": [
+      {
+        "id": "06c586803a98bedb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4df392febc2841c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dailyNotes/2023-03-10.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2719584e5c745b9a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "dailyNotes/2023-03-10.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "eb1f8ee5fcda3294",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dailyNotes/2023-03-10.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08a7bc88dccf0207",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e2182da6534c8d08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d23c6a3eb53862b5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "50db4f4e28e80db5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dailyNotes/2023-03-10.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-dangling-links:Show dangling links panel": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "completed-task-display:Task Hider": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "open-vscode:VSCode": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
+    }
+  },
+  "active": "09ddef3cb9955fe7",
+  "lastOpenFiles": [
+    "⛰️ My Role as a Man.md",
+    "dailyNotes/2023-03-10.md",
+    "dailyNotes/2023-03-08.md",
+    "_start_here.md",
+    "Vault Overview.md",
+    "1. Projects/🚧 Vault Onboarding/🚧 Vault Onboarding.md",
+    "1. Projects/🚧 Vault Onboarding/📌 Use the vault.md",
+    "1. Projects/🚧 Vault Onboarding/📌 Learn vault features and workflows.md",
+    "Template Debrief.md",
+    "Vault Features.md",
+    "1. Projects/📌 Learn Obsidian MD.md",
+    "1. Projects/🚧 Vault Onboarding/📌 Learn PKM and note-taking methodology.md",
+    "dailyNotes/2023-03-07.md",
+    "📚 Books.md",
+    "templates/notes/Area Template.md",
+    "dailyNotes/2023-03-06.md",
+    "dailyNotes/2023-02-26.md",
+    "dailyNotes/2023-02-22.md",
+    "templates/student/Course Template.md",
+    "Managing tasks via kanbans.md",
+    "Kanban Board.md",
+    "Project Management MOC.md",
+    "My Plugins.md",
+    "2. Areas/My Areas.md",
+    "⛰️ e.md",
+    "2. Areas/⛰️ test.md",
+    "Untitled.canvas"
+  ]
+}

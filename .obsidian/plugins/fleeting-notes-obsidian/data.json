@@ -1,0 +1,16 @@
+{
+  "auto_generate_title": true,
+  "fleeting_notes_folder": "",
+  "attachments_folder": "",
+  "note_template": "---\nid: \"${id}\"\ntitle: \"${title}\"\ncreated: \"${datetime}\"\nsource: \"${source}\"\ntags: \"#note/🌱\"\n---\n${content}",
+  "sync_on_startup": false,
+  "last_sync_time": "1970-01-01T00:00:00.000Z",
+  "sync_type": "one-way",
+  "sync_obsidian_links": false,
+  "sync_obsidian_links_title": "Links from Obsidian",
+  "notes_filter": "",
+  "encryption_key": "",
+  "date_format": "YYYY-MM-DDTHH:mm",
+  "title_template": "${title}",
+  "username": ""
+}

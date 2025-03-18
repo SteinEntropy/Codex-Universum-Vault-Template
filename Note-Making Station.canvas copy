@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"4bae5ec9ee197fc4","type":"group","x":-1100,"y":60,"width":2260,"height":1500,"color":"1","label":"Collect"},
+		{"id":"aa48bcb0dd34e90e","type":"group","x":1720,"y":60,"width":960,"height":1500,"color":"3","label":"Connect"},
+		{"id":"df984bb1041c4979","type":"group","x":2980,"y":60,"width":930,"height":1500,"color":"4","label":"Create"},
+		{"id":"427d10b3b1344c58","type":"text","text":"\r\nNote Making 🟨\r\nRefer to My Step By Step Process For Taking Conceptual Lecture Notes In Obsidian6\r\n\r\nFile0\tCreated\tSource\r\nDataview: No results to show for table query.\r\n\r\n\r\nIn Progress 🟨\r\nCurrently being processed into conceptual notes\r\n\r\nFile0\tCreated\r\nDataview: No results to show for table query.\r\n\r\n\r\nIn Progress 🟨\r\nCurrently expanding, connecting, and making flashcards inside (if necessary)\r\n\r\nFile0\tCreated\r\nDataview: No results to show for table query.\r\n\r\n\r\nAll Units\r\nFile1\tCourse\r\nBeginning of Psychology\tPsychology 100\r\n\r\nAll MOCs\r\n🎓 Obsidian University MOC\r\n🗺 Biology MOC\r\n🗺 Obsidian MOC\r\n🗺 Psychology MOC\r\n🗺 Studying MOC","x":2012,"y":476,"width":250,"height":60},
+		{"id":"a466b67d5bcf17ec","type":"text","text":"\r\nNote Making 🟨\r\nRefer to My Step By Step Process For Taking Conceptual Lecture Notes In Obsidian6\r\n\r\nFile0\tCreated\tSource\r\nDataview: No results to show for table query.\r\n\r\n\r\nIn Progress 🟨\r\nCurrently being processed into conceptual notes\r\n\r\nFile0\tCreated\r\nDataview: No results to show for table query.\r\n\r\n\r\nIn Progress 🟨\r\nCurrently expanding, connecting, and making flashcards inside (if necessary)\r\n\r\nFile0\tCreated\r\nDataview: No results to show for table query.\r\n\r\n\r\nAll Units\r\nFile1\tCourse\r\nBeginning of Psychology\tPsychology 100\r\n\r\nAll MOCs\r\n🎓 Obsidian University MOC\r\n🗺 Biology MOC\r\n🗺 Obsidian MOC\r\n🗺 Psychology MOC\r\n🗺 Studying MOC","x":2321,"y":515,"width":250,"height":60},
+		{"id":"fd82f9d038e4566e","type":"text","text":"# [[My Inputs]]\n![[My Inputs#Note Making 🟨]]","x":-1080,"y":83,"width":890,"height":707},
+		{"id":"eb892e20459d1ed1","type":"text","text":"# [[My Lectures]]\n![[My Lectures#Backlog 🟥]]\n![[My Lectures#In Progress 🟨]]","x":-1080,"y":820,"width":900,"height":707},
+		{"id":"ae979fce55220600","type":"text","text":"# [[My Concepts]]\n![[My Concepts#Backlog 🟥]]\n![[My Concepts#In Progress 🟨]]","x":240,"y":83,"width":890,"height":1444},
+		{"id":"d6d8c5221f02b171","type":"text","text":"# [[My Units]]\n![[My Units#All Units]]\n","x":1760,"y":83,"width":890,"height":677},
+		{"id":"05ac154acbb4aa21","type":"text","text":"# [[Atlas|🌎 My Atlas]]\n\n![[Atlas#All MOCs]]","x":1760,"y":820,"width":890,"height":707},
+		{"id":"83a63453aa490325","type":"text","text":"Are turned into","x":-80,"y":775,"width":250,"height":60},
+		{"id":"5a71183b0d3a4509","type":"text","text":"# [[My Assignments]]\n![[My Assignments#By Deadline]]","x":3000,"y":83,"width":890,"height":1427}
+	],
+	"edges":[
+		{"id":"ece9e948b5499621","fromNode":"fd82f9d038e4566e","fromSide":"right","toNode":"83a63453aa490325","toSide":"left"},
+		{"id":"319159b7da096d65","fromNode":"eb892e20459d1ed1","fromSide":"right","toNode":"83a63453aa490325","toSide":"left"},
+		{"id":"27408d6e2164e4e9","fromNode":"83a63453aa490325","fromSide":"right","toNode":"ae979fce55220600","toSide":"left"},
+		{"id":"ac19217e2e1a7fcd","fromNode":"ae979fce55220600","fromSide":"right","toNode":"d6d8c5221f02b171","toSide":"left","label":"Organize by course structure"},
+		{"id":"1ac1f57b010fa6e0","fromNode":"ae979fce55220600","fromSide":"right","toNode":"05ac154acbb4aa21","toSide":"left","label":"Organize by related ideas"},
+		{"id":"c2cb52957a1135f1","fromNode":"d6d8c5221f02b171","fromSide":"right","toNode":"df984bb1041c4979","toSide":"left"},
+		{"id":"5a8ac43f1a93a3c7","fromNode":"05ac154acbb4aa21","fromSide":"right","toNode":"df984bb1041c4979","toSide":"left"}
+	]
+}

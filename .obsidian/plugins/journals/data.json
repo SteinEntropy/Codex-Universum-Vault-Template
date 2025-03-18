@@ -1,0 +1,563 @@
+{
+  "version": 3,
+  "ui": {
+    "calendarShelf": null
+  },
+  "pendingMigrations": [
+    {
+      "type": "v1-v2",
+      "shelfDecided": false,
+      "frontmatterDecided": false,
+      "journals": [
+        {
+          "id": "Month",
+          "type": "calendar",
+          "name": "Month",
+          "rootFolder": "My Calendar/My Monthly Notes",
+          "openOnStartup": false,
+          "startupSection": "day",
+          "day": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "week": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "month": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "YYYY-[M]MM",
+            "folder": "",
+            "template": "Hidden/My Templates/periodic/Monthly Review Template.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "quarter": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "year": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          }
+        },
+        {
+          "id": "Week",
+          "type": "calendar",
+          "name": "Week",
+          "rootFolder": "My Calendar/My Weekly Notes",
+          "openOnStartup": false,
+          "startupSection": "day",
+          "day": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "week": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "Hidden/My Templates/periodic/Weekly Review Template.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "month": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "quarter": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "year": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          }
+        },
+        {
+          "id": "Quarter",
+          "type": "calendar",
+          "name": "Quarter",
+          "rootFolder": "",
+          "openOnStartup": false,
+          "startupSection": "day",
+          "day": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "week": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "month": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "quarter": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "Hidden/My Templates/periodic/Quarterly Review Template.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "year": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          }
+        },
+        {
+          "id": "Year",
+          "type": "calendar",
+          "name": "Year",
+          "rootFolder": "My Calendar/My Yearly Notes",
+          "openOnStartup": false,
+          "startupSection": "day",
+          "day": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "week": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "month": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "quarter": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "year": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "Hidden/My Templates/periodic/Yearly Review Template.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          }
+        },
+        {
+          "id": "Day",
+          "type": "calendar",
+          "name": "Day",
+          "rootFolder": "My Calendar/My Daily Notes",
+          "openOnStartup": false,
+          "startupSection": "day",
+          "day": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "Hidden/My Templates/periodic/Daily Template.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "week": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "month": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "quarter": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "year": {
+            "enabled": false,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "",
+            "template": "",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          }
+        }
+      ]
+    }
+  ],
+  "useShelves": false,
+  "showReloadHint": false,
+  "openOnStartup": "",
+  "journals": {},
+  "shelves": {},
+  "calendar": {
+    "dow": -1,
+    "doy": 1
+  },
+  "calendarView": {
+    "display": "month",
+    "leaf": "right",
+    "weeks": "left",
+    "todayMode": "navigate",
+    "pickMode": "create",
+    "todayStyle": {
+      "color": {
+        "type": "theme",
+        "name": "text-accent"
+      },
+      "background": {
+        "type": "transparent"
+      }
+    },
+    "activeStyle": {
+      "color": {
+        "type": "theme",
+        "name": "text-on-accent"
+      },
+      "background": {
+        "type": "theme",
+        "name": "interactive-accent"
+      }
+    }
+  },
+  "commands": [
+    {
+      "name": "Open today's note",
+      "writeType": "day",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open weekly note",
+      "writeType": "week",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open monthly note",
+      "writeType": "month",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open quarterly note",
+      "writeType": "quarter",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open yearly note",
+      "writeType": "year",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open tomorrow's note",
+      "writeType": "day",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next week note",
+      "writeType": "week",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next month note",
+      "writeType": "month",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next quarter note",
+      "writeType": "quarter",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next year note",
+      "writeType": "year",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open yesterday's note",
+      "writeType": "day",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last week note",
+      "writeType": "week",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last month note",
+      "writeType": "month",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last quarter note",
+      "writeType": "quarter",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last year note",
+      "writeType": "year",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    }
+  ],
+  "dismissedNotifications": []
+}

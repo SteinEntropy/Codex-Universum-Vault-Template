@@ -1,0 +1,8 @@
+{
+  "new-note-template": "templates/projects/Kanban Card Template.md",
+  "new-note-folder": "1. Projects",
+  "hide-tags-in-title": true,
+  "link-date-to-daily-note": true,
+  "prepend-archive-date": true,
+  "show-checkboxes": false
+}

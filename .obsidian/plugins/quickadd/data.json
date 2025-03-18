@@ -1,0 +1,989 @@
+{
+  "choices": [
+    {
+      "id": "b1c4ea22-ac80-4596-9966-fcd36cd1217c",
+      "name": "🖌️ Create Note",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "bd1fdabc-acfb-4704-84eb-2eaa8793ad30",
+          "name": "🗺️ Create MOC Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/notes/MOC Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "🗺 {{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Resources/My Maps of Content (MOCs)"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "15d2c8de-20d2-4b36-a53b-1c927bfb28dd",
+          "name": "⛰️ Create Area Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/notes/Area Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "⛰️ {{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Areas"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "85812641-b3bc-4085-bb21-bea1d4d7df21",
+          "name": "💭 Create Thought Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/inputs/Thought Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Thoughts"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "37f1934d-7a76-4282-b7d7-cb0f1712f307",
+          "name": "👤 Create Person Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/notes/Person Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "👤 {{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Social Circle"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "56db395d-5aaa-4729-b85d-8ab9123246b0",
+          "name": "🗣 Create Meeting Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/notes/Meeting Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "🗣 {{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Meetings"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "edd27505-6887-44a9-aebc-da95acc0ffa6",
+          "name": "🗄️ Create Input Collection Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/inputs/Input Collection Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "🗄️ {{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Input Collections"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "0ffdbc95-21f3-4fc4-8b36-915cfe73a573",
+      "name": "🗂️ Add Input",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "3f629f95-3461-4ab6-9e63-de84b9c448f9",
+          "name": "📥 Add General Input",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/inputs/General Input Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "📥 {{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Inputs"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "d0ee86ee-642a-4b08-b498-7395e4725a39",
+          "name": "📚 Add Book Input",
+          "type": "Macro",
+          "command": true,
+          "macroId": "e9b4fb88-8700-4671-b122-49f616f50fc8"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "3d7e0372-fc93-4bbb-87fa-ed595863fd55",
+      "name": "📤 Create Output",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "03bf0356-734a-4e19-a258-8b9520743386",
+          "name": "💡 Create Brainstorm Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/output/Brainstorming Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "💡 {{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Outputs/My Brainstorms"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "d0ba4b3b-4e2f-44d8-aedd-3990ef971037",
+          "name": "💪 Create Book Application Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/output/Book Application Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Outputs/My Book Applications"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "c2449ee0-639e-4c9a-86ef-6e04c03e1b39",
+      "name": "🔨 Task + Project Management",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "0468ea18-5c37-4079-a9ef-25a64cb20934",
+          "name": "🎯 Create Goal Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/projects/Goal Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "🎯 {{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Goals"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "703904fd-10b0-496d-9bda-07fbc455a73d",
+          "name": "🚧 Create Project Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/projects/Project Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "{{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "0cf7346b-99c4-4979-8cca-a496db1d54c8",
+          "name": "♻️ Create New Habit",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/projects/Habit Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "♻️ {{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Habits"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "1ed68773-7b8c-4869-a339-e722f62a53c6",
+          "name": "📌 Create Kanban",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/projects/Kanban Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": "📌 {{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Kanbans"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "15b4ee31-0a23-4d2f-8856-3656e2a16ac7",
+          "name": "📌 Create Kanban + Set Folder",
+          "type": "Macro",
+          "command": true,
+          "macroId": "8800c3e7-8567-47af-a36c-0575884f3330"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "8845603a-e807-4e40-a238-40149a141dd6",
+      "name": "📆 Create Periodic Note",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "e3397d55-77c1-43fa-a871-dfe3d89d8328",
+          "name": "📆 Create Weekly Note (ex. 2022-W06)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/periodic/Weekly Review Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Calendar/My Weekly Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "161a3194-f394-4a13-9b6f-f57b8b2722ea",
+          "name": "📆 Create Monthly Note (ex. 2022-M07)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/periodic/Monthly Review Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Calendar/My Monthly Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "f5cc8448-e321-44e6-8176-6a313a125745",
+          "name": "📆 Create Quarterly Note (ex. 2022-Q3)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/periodic/Quarterly Review Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Calendar/My Quarterly Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        },
+        {
+          "id": "bd188cf6-d2e8-4d69-9554-427b5f681dc3",
+          "name": "📆 Create Yearly Note (ex. 2022)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/periodic/Yearly Review Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "My Calendar/My Yearly Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "f3c86197-04ee-4f8a-9abb-3147605ae87e",
+      "name": "⚙ Workshop",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "5b5c848c-173f-4add-b639-ac25c54cc76d",
+          "name": "Create New Note Template",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/workshop/New Note Type Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Hidden/My Templates"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": true
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "f100a923-5d34-42e7-8b2d-6b5faea41c41",
+          "name": "Create New Folder Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Hidden/My Templates/workshop/Folder Search Note Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": true,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ]
+    },
+    {
+      "id": "b7acb40f-0439-448a-b65c-80b20f2c482f",
+      "name": "Modules",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "7a0f1225-a219-4b0e-a813-aa45c5addbcd",
+          "name": "Insert File Cursor Jump For New Task",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "<% tp.file.cursor(1) %>\\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Tasks",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "6bb9f26c-69d2-4711-978e-5325f7b4f1c5",
+          "name": "Add Task for Header",
+          "type": "Macro",
+          "command": true,
+          "macroId": "9deb75f1-4533-4d1b-8630-7a30e61344a0"
+        }
+      ]
+    },
+    {
+      "id": "10ad93f5-80ec-44c5-8429-abc4c0acad74",
+      "name": "➕ Addons",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "b0f8231c-c25e-44db-9c4d-87c0583698c5",
+          "name": "Insert Project Weekly Progress Addon",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "### [[<% moment(tp.date.now()).format(\"YYYY-[W]\") %>{{VALUE:The week number (ex. 34)}}]]\n#### W{{VALUE:The week number (ex. 34)}} Plan\n`INPUT[textArea(placeholder(Plan)):P-W{{VALUE:The week number (ex. 34)}}]`\n#### W{{VALUE:The week number (ex. 34)}} Reflection\n`INPUT[textArea(placeholder(Reflection)):R-W{{VALUE:The week number (ex. 34)}}]`\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "%% Weekly Progress Start %%",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "3c1d6de2-67a8-45e8-b4b3-0bf98de2274d",
+          "name": "Insert Progress Bar Addon",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```meta-bind\nINPUT[progressBar(minValue(0), maxValue({{VALUE:Goal Amount (ex. 500)}}), title({{VALUE:Key Result (No Spaces)}})):{{VALUE:Key Result (No Spaces)}}]\n```\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### Key Results",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ]
+    },
+    {
+      "id": "aae76f9e-f814-440e-9c0b-465bd736c4bd",
+      "name": "Turn headers into notes",
+      "type": "Macro",
+      "command": true,
+      "macroId": "84bf012d-1c04-49f5-892e-de301cce4040"
+    }
+  ],
+  "macros": [
+    {
+      "name": "(Button) Add Task to End of Tasks Header",
+      "id": "9deb75f1-4533-4d1b-8630-7a30e61344a0",
+      "commands": [
+        {
+          "name": "Insert File Cursor Jump For New Task",
+          "type": "Choice",
+          "id": "8d99d6ec-6e5e-4e5a-a6d3-d83288af2b54",
+          "choiceId": "7a0f1225-a219-4b0e-a813-aa45c5addbcd"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "5937cdcc-a487-41d4-ba91-00f206109243",
+          "time": 50
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "36596077-4b5d-41a5-88ce-7c288188b1cc",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "143363fa-a722-42cc-a303-935a18b76d33",
+          "time": 50
+        },
+        {
+          "name": "Tasks: Create or edit task",
+          "type": "Obsidian",
+          "id": "80096620-3b40-4cfd-b5fb-8e8239e86d78",
+          "commandId": "obsidian-tasks-plugin:edit-task"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Kanban + Set Folder",
+      "id": "8800c3e7-8567-47af-a36c-0575884f3330",
+      "commands": [
+        {
+          "name": "📌 Create Kanban",
+          "type": "Choice",
+          "id": "2f07b7c9-adfa-4d41-aa68-b73d0140992b",
+          "choiceId": "1ed68773-7b8c-4869-a339-e722f62a53c6"
+        },
+        {
+          "name": "Move current file to another folder",
+          "type": "Obsidian",
+          "id": "18c541bd-783b-423a-bb8d-85b922dac61c",
+          "commandId": "file-explorer:move-file"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create + Move Kanban",
+      "id": "16cb3c2f-bcbe-4e42-871f-bf134ffcffdf",
+      "commands": [
+        {
+          "name": "📌 Create Kanban",
+          "type": "Choice",
+          "id": "2a42bf63-3bec-4708-8ce7-ea850aa24cff",
+          "choiceId": "1ed68773-7b8c-4869-a339-e722f62a53c6"
+        },
+        {
+          "name": "File explorer: Move file to another folder",
+          "type": "Obsidian",
+          "id": "3bc2b66f-9e40-4640-8f83-671cf6a8f650",
+          "commandId": "file-explorer:move-file"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Book Note",
+      "id": "e9b4fb88-8700-4671-b122-49f616f50fc8",
+      "commands": [
+        {
+          "name": "Insert Book Title",
+          "type": "NestedChoice",
+          "id": "b9fb1afe-7049-4b31-9cca-fe4ff5ad651e",
+          "choice": {
+            "id": "bc0b3eb5-b859-4be2-898b-dd02085428bf",
+            "name": "Insert Book Title",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Hidden/My Templates/inputs/Book Notes Template.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": "📚 {{NAME}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "My Inputs/My Books"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing"
+          }
+        },
+        {
+          "name": "Insert Application Note Title (preferrably same as book)",
+          "type": "NestedChoice",
+          "id": "0c387216-1ceb-4ee4-b42c-087c737b9773",
+          "choice": {
+            "id": "03f096bd-6493-4341-ae2e-90b8e28d3fca",
+            "name": "Insert Application Note Title (preferrably same as book)",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Hidden/My Templates/output/Book Application Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{NAME}} Application"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "My Outputs/My Book Applications"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Turn headers into notes",
+      "id": "84bf012d-1c04-49f5-892e-de301cce4040",
+      "commands": [
+        {
+          "name": "Zettelizer",
+          "type": "UserScript",
+          "id": "11b196d2-bf98-4491-af7d-d2bf3f551064",
+          "path": "Hidden/jsScripts/Zettelizer.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.13.0",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}
